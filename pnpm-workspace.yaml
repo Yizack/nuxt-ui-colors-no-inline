@@ -1,0 +1,11 @@
+shamefullyHoist: true
+strictPeerDependencies: false
+
+packages:
+  - playground
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - esbuild
+  - unrs-resolver
+  - vue-demi

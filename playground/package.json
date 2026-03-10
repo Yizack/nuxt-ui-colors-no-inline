@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-ui-colors-no-inline-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.5.1",
+    "nuxt": "^4.3.1"
+  }
+}
