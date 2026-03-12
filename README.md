@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
 ## Options
 
-This module augments the `ui` module options in `nuxt.config.ts` with a new `colors` property for static color customization.
+This module augments the `ui` module options in `nuxt.config.ts` with a new `colors` property for static color customization, instead of using `app.config.ts`.
 
 ```ts
 export default defineNuxtConfig({
