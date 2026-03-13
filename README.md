@@ -48,11 +48,11 @@ export default defineNuxtConfig({
     inlineStyles: false
   },
   ui: {
-    // @nuxt/ui module options
+    // '@nuxt/ui' module options
     colorMode: true,
     fonts: true,
     // ...
-    // nuxt-ui-colors-no-inline module options
+    // 'nuxt-ui-colors-no-inline' module options
     colors: {
       neutral: "zinc",
       primary: "emerald",
