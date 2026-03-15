@@ -72,8 +72,9 @@ If you're particular about clean HTML with no inline styles, this module is for 
 ## Caveats
 
 - Since CSS is generated at build time into a static file, you can no longer dynamically update colors at runtime by targeting `#nuxt-ui-colors`. To change colors dynamically, you must manually inject a new `<style>` tag into `<head>` with the updated CSS variables.
-- The separate CSS file is only generated for production builds. During development, `nuxt-ui-colors` CSS will still be injected as an inline `<style>` due to how `inlineStyles` is handled in development mode.
+- In development, the separate CSS file is always generated since `inlineStyles` is disabled by default in dev mode. In production, it is only generated when `inlineStyles: false` is set in your Nuxt config.
 - Color customization must be defined statically via the augmented `colors` property under `ui` in `nuxt.config.ts`, since the CSS is generated at build time and cannot pick up runtime `app.config.ts` changes.
+- Color changes require a dev server restart to take effect. If you frequently tweak colors during development, consider temporarily removing this module from your Nuxt config.
 
 ## Credits
 

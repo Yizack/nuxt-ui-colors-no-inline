@@ -22,9 +22,9 @@ export default defineNuxtModule<ModuleOptions>({
     nuxt.options.appConfig.ui ||= { colors: {} } as never
     nuxt.options.appConfig.ui.colors = uiColors
 
-    if (nuxt.options.dev || nuxt.options.features.inlineStyles !== false) return
+    if (nuxt.options.features.inlineStyles !== false) return
 
-    // Remove the default colors plugin from @nuxt/ui in prod if inlineStyles config is disabled
+    // Remove the default colors plugin from @nuxt/ui if inlineStyles config is disabled
     nuxt.hook('app:resolve', (app) => {
       app.plugins = app.plugins.filter(p => !p.src.includes('@nuxt/ui/dist/runtime/plugins/colors'))
     })
