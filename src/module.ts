@@ -37,9 +37,7 @@ export default defineNuxtModule<ModuleOptions>({
       getContents: () => content,
     })
 
-    if (colorsFile.dst) {
-      nuxt.options.css ||= []
-      nuxt.options.css.push(colorsFile.dst)
-    }
+    nuxt.options.css ||= []
+    nuxt.options.css.push(colorsFile.dst)
   },
 })
