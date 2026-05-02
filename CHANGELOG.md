@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/Yizack/nuxt-ui-colors-no-inline/compare/v0.0.3...v0.0.4)
+
+### 🩹 Fixes
+
+- **types:** Add ui typing to 'nuxt/schema' ([f428c41](https://github.com/Yizack/nuxt-ui-colors-no-inline/commit/f428c41))
+
+### 🏡 Chore
+
+- Update all deps ([2be0086](https://github.com/Yizack/nuxt-ui-colors-no-inline/commit/2be0086))
+
+### ✅ Tests
+
+- Add no-inline fixture and test ([9aefec1](https://github.com/Yizack/nuxt-ui-colors-no-inline/commit/9aefec1))
+
+### ❤️ Contributors
+
+- Yizack Rangel ([@Yizack](https://github.com/Yizack))
+
 ## v0.0.3
 
 [compare changes](https://github.com/Yizack/nuxt-ui-colors-no-inline/compare/v0.0.2...v0.0.3)
