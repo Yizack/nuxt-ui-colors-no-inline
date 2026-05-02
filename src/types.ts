@@ -15,3 +15,9 @@ declare module '@nuxt/schema' {
     ui?: ModuleOptions
   }
 }
+
+declare module 'nuxt/schema' {
+  interface NuxtConfig {
+    ui?: ModuleOptions
+  }
+}
