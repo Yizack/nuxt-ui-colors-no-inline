@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@nuxt/ui": "^4.7.1",
-    "nuxt": "^4.4.4"
+    "nuxt": "^4.4.6"
   }
 }

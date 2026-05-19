@@ -1,11 +1,12 @@
 shamefullyHoist: true
 strictPeerDependencies: false
+minimumReleaseAge: 60
 
 packages:
   - playground
 
-ignoredBuiltDependencies:
-  - '@parcel/watcher'
-  - esbuild
-  - unrs-resolver
-  - vue-demi
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  unrs-resolver: false
+  vue-demi: false
