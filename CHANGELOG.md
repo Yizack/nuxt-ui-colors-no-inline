@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/Yizack/nuxt-ui-colors-no-inline/compare/v0.0.4...v0.0.5)
+
+### 🏡 Chore
+
+- Update all deps ([cd2787b](https://github.com/Yizack/nuxt-ui-colors-no-inline/commit/cd2787b))
+
+### ✅ Tests
+
+- Add inline fixture and update fixture deps ([5c07633](https://github.com/Yizack/nuxt-ui-colors-no-inline/commit/5c07633))
+
+### ❤️ Contributors
+
+- Yizack Rangel ([@Yizack](https://github.com/Yizack))
+
 ## v0.0.4
 
 [compare changes](https://github.com/Yizack/nuxt-ui-colors-no-inline/compare/v0.0.3...v0.0.4)
