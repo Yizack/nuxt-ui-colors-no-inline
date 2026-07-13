@@ -4,7 +4,7 @@ import { $fetch, setup } from '@nuxt/test-utils/e2e'
 
 await setup({ rootDir: fileURLToPath(new URL('./fixtures/no-inline', import.meta.url)) })
 
-describe('ssr', () => {
+describe('no-inline', async () => {
   it('renders the index page', async () => {
     const html = await $fetch('/')
     expect(html).toContain('nuxt-ui-colors-no-inline')
