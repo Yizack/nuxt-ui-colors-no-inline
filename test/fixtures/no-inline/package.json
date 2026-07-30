@@ -3,7 +3,7 @@
   "name": "basic",
   "type": "module",
   "dependencies": {
-    "@nuxt/ui": "^4.9.0",
-    "nuxt": "^4.4.8"
+    "@nuxt/ui": "^4.10.0",
+    "nuxt": "^4.5.1"
   }
 }
